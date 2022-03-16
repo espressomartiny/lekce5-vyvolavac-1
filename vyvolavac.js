@@ -50,5 +50,5 @@ function tahnoutJmeno() {
     vyherce.textContent = vyherniJmeno;
 
     let seznam = document.querySelector('#seznam');
-    seznam.textContent = tazenaJmena;
+    seznam.innerHTML = tazenaJmena + "<br> Vyzkoušeno: " + tazenaJmena.length
 }
